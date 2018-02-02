@@ -7,6 +7,15 @@
  * @return { Number }
  */
 
+function greaterNumber(a, b){
+  if (a > b) {
+    return a;
+  } else if(a < b) {
+    return b;
+  }
+}
+
+console.log(greaterNumber(4,5));
 
 /**
  * Create a function called 'stringOfNumbers'.
@@ -18,6 +27,16 @@
  * @return { String }
  */
 
+var string ="";
+var i;
+function stringOfNumbers(n){
+  for(i = 0; i <= n; i++){
+   string += i + ",";
+  }
+  return string;
+}
+
+console.log(stringOfNumbers(5));
 
 /**
  * Create a function called 'sumOfArray'.
@@ -27,8 +46,13 @@
  * @param  { array } arr
  * @return { Number }
  */
+var array = [1,2,3]
 
+function sumOfArray(x , y){
+  return total + num;
+}
 
+console.log(sumOfArray)
 /**
  * Create a function called 'getEvens'.
  * This function will take in a parameter that is an array.
